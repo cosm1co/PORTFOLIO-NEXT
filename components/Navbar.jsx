@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { BsFillPersonLinesFill, BsWindowSidebar } from 'react-icons/bs'
+import logo from "../public/assets/logo.png";
+import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
 
 export default function Navbar() {
     const [nav, setNav] = useState(false)
@@ -35,7 +36,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
           <Image
-            src="/../public/assets/logo.png"
+            src={logo}
             alt="/"
             height="50"
             width="50"

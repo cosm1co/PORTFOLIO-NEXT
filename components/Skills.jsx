@@ -1,5 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import css from "../public/assets/skills/css.png";
+import html from "../public/assets/skills/html.png";
+import JavaScript from "../public/assets/skills/JavaScript.png";
+import mongodb from "../public/assets/skills/mongodb.png";
+import node from "../public/assets/skills/node.png";
+import postgress from "../public/assets/skills/postgress.png";
+import react from "../public/assets/skills/react.png";
+import tailwind from "../public/assets/skills/tailwind.png";
+
 
 export default function Skills() {
   return (
@@ -14,7 +23,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/html.png"}
+                  src={html}
                   width="64"
                   height="64"
                   alt="/"
@@ -30,7 +39,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/css.png"}
+                  src={css}
                   width="64"
                   height="64"
                   alt="/"
@@ -46,7 +55,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/JavaScript.png"}
+                  src={JavaScript}
                   width="64"
                   height="64"
                   alt="/"
@@ -62,7 +71,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/node.png"}
+                  src={node}
                   width="64"
                   height="64"
                   alt="/"
@@ -78,7 +87,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/postgress.png"}
+                  src={postgress}
                   width="64"
                   height="64"
                   alt="/"
@@ -94,7 +103,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/tailwind.png"}
+                  src={tailwind}
                   width="64"
                   height="64"
                   alt="/"
@@ -110,7 +119,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/mongodb.png"}
+                  src={mongodb}
                   width="64"
                   height="64"
                   alt="/"
@@ -126,7 +135,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/../public/assets/skills/react.png"}
+                  src={react}
                   width="64"
                   height="64"
                   alt="/"
